@@ -1,0 +1,68 @@
+@import 'https://fonts.googleapis.com/css?family=Nova+Mono';
+body {
+  background-color: Beige;
+  font-family: 'Nova Mono', monospace;
+}
+
+.calculator {
+  background-color: LightGrey;
+  margin: 0 auto;
+  width: 325px;
+  border-radius: 25px;
+  border: solid 3px Black;
+}
+
+.header {
+  color: Black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.display {
+  background-color: FloralWhite;
+  border: solid 1px Black;
+  height: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+}
+
+.entry {
+  text-align: right;
+  font-size: 3.25em;
+}
+
+.entry-history {
+  text-align: right;
+}
+
+.keypad {
+  margin-left: -10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin: 5px;
+  width: 60px;
+  border: solid 1px Black;
+}
+
+button:first-of-type {
+  margin-left: 0;
+}
+
+button:last-of-type {
+  margin-right: 0;
+}
+
+.horizontal {
+  width: 115%;
+}
+
+.vertical {
+  height: 100px;
+  position: absolute;
+}
